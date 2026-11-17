@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOVA X · Soirée de lancement · 11 février 2027</title>
+<meta name="description" content="Soirée de lancement du NOVA X, jeudi 11 février 2027 à 19 h, Sofitel Abidjan Hôtel Ivoire. Inscription.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--nuit:#262C51;--nuit2:#1b2040;--nuit3:#141831;--or:#E8892B;--or2:#f4a956;--txt:#eef0fa;--mut:#aab0d0;--card:rgba(255,255,255,.05);--line:rgba(255,255,255,.10)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Roboto,system-ui,sans-serif;background:var(--nuit3);color:var(--txt);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Roboto Slab",serif;line-height:1.15}
+a{color:inherit}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:20;background:rgba(20,24,49,.82);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-family:"Roboto Slab";font-weight:800;letter-spacing:.12em;font-size:18px}
+.brand span{color:var(--or)}
+nav ul{display:flex;gap:28px;list-style:none;font-size:14px;color:var(--mut)}
+nav ul a{text-decoration:none}nav ul a:hover{color:#fff}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--or);color:#1a1300;font-weight:700;text-decoration:none;border:0;border-radius:999px;padding:14px 28px;font-size:15px;cursor:pointer;transition:.2s;font-family:Roboto}
+.btn:hover{background:var(--or2);transform:translateY(-2px);box-shadow:0 10px 30px rgba(232,137,43,.35)}
+.btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.3)}
+.btn.ghost:hover{border-color:var(--or);color:var(--or);box-shadow:none}
+nav .btn{padding:9px 18px;font-size:13px}
+/* hero */
+.hero{position:relative;overflow:hidden;background:radial-gradient(1000px 600px at 80% 20%,rgba(232,137,43,.22),transparent 60%),radial-gradient(900px 700px at 10% 90%,rgba(80,96,200,.30),transparent 60%),linear-gradient(160deg,var(--nuit),var(--nuit3));padding:110px 0 90px}
+.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(circle at 60% 40%,#000,transparent 75%)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr .9fr;gap:60px;align-items:center}
+.tag{display:inline-block;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--or);border:1px solid rgba(232,137,43,.45);padding:7px 14px;border-radius:999px;margin-bottom:26px}
+.hero h1{font-size:clamp(46px,7vw,92px);font-weight:800;letter-spacing:-.01em}
+.hero h1 em{font-style:normal;color:var(--or)}
+.hero h1 small{display:block;font-size:.42em;font-weight:400;color:#dfe3f7;margin-top:12px}
+.meta{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0 36px}
+.meta div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 18px;font-size:15px}
+.meta b{display:block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);font-weight:500}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.phone{position:relative;justify-self:center;width:270px;height:540px;border-radius:44px;background:linear-gradient(145deg,#3a4178,#11152c);border:2px solid rgba(255,255,255,.14);box-shadow:0 40px 90px rgba(0,0,0,.55),inset 0 0 0 8px #0c0f22;transform:rotate(-8deg)}
+.phone:before{content:"";position:absolute;inset:14px;border-radius:34px;background:radial-gradient(circle at 30% 25%,rgba(232,137,43,.85),transparent 45%),radial-gradient(circle at 75% 80%,rgba(110,130,255,.7),transparent 50%),#0d1026}
+.phone:after{content:"NOVA X";position:absolute;bottom:60px;left:0;right:0;text-align:center;font-family:"Roboto Slab";font-weight:800;letter-spacing:.3em;font-size:22px}
+.phone i{position:absolute;top:26px;left:50%;width:80px;height:22px;margin-left:-40px;border-radius:20px;background:#05060f;z-index:2}
+.glow{position:absolute;width:340px;height:340px;border-radius:50%;background:var(--or);filter:blur(120px);opacity:.25;right:5%;top:20%}
+/* countdown */
+.count{background:var(--nuit);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.count .wrap{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:34px 24px;flex-wrap:wrap}
+.count p{color:var(--mut);font-size:14px;letter-spacing:.14em;text-transform:uppercase}
+.cd{display:flex;gap:14px}
+.cd div{min-width:96px;text-align:center;background:var(--nuit3);border:1px solid var(--line);border-radius:16px;padding:14px 10px}
+.cd span{display:block;font-family:"Roboto Slab";font-size:40px;font-weight:700;color:#fff}
+.cd small{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--or)}
+section{padding:96px 0}
+.kicker{color:var(--or);font-size:12px;letter-spacing:.24em;text-transform:uppercase;font-weight:700;margin-bottom:12px}
+h2{font-size:clamp(30px,4vw,44px);margin-bottom:18px}
+.lead{color:var(--mut);max-width:640px;font-size:17px}
+/* programme */
+.timeline{margin-top:48px;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;position:relative}
+.timeline:before{content:"";position:absolute;top:28px;left:8%;right:8%;height:2px;background:linear-gradient(90deg,var(--or),rgba(232,137,43,.15))}
+.step{position:relative;text-align:center;padding:0 6px}
+.dot{width:56px;height:56px;margin:0 auto 18px;border-radius:50%;background:var(--nuit);border:2px solid var(--or);display:grid;place-items:center;position:relative;z-index:1}
+.dot svg{width:24px;height:24px;stroke:var(--or);fill:none;stroke-width:1.8}
+.step h3{font-size:24px;color:#fff}
+.step p{color:var(--mut);font-size:15px;margin-top:4px}
+/* lieu */
+.lieu{background:linear-gradient(180deg,var(--nuit3),var(--nuit2))}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:stretch}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:34px}
+.addr{font-size:18px;margin:18px 0 26px}
+.addr strong{font-family:"Roboto Slab";font-size:24px;display:block;margin-bottom:6px}
+.map{border-radius:22px;min-height:300px;border:1px solid var(--line);background:radial-gradient(circle at 50% 50%,rgba(232,137,43,.35),transparent 18%),repeating-linear-gradient(35deg,rgba(255,255,255,.05) 0 2px,transparent 2px 46px),repeating-linear-gradient(-55deg,rgba(255,255,255,.05) 0 2px,transparent 2px 60px),linear-gradient(160deg,#2b3263,#161a36);display:grid;place-items:center;position:relative;overflow:hidden}
+.pin{width:64px;height:64px;border-radius:50% 50% 50% 0;background:var(--or);transform:rotate(-45deg);box-shadow:0 0 0 14px rgba(232,137,43,.18),0 0 0 30px rgba(232,137,43,.08)}
+.pin:after{content:"";position:absolute;width:22px;height:22px;background:var(--nuit3);border-radius:50%;top:21px;left:21px}
+.map b{position:absolute;bottom:20px;left:24px;font-family:"Roboto Slab";font-size:15px;letter-spacing:.06em}
+/* jauge */
+.jauge{margin-top:30px}
+.jauge .bar{height:14px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden}
+.jauge .fill{height:100%;width:0;border-radius:999px;background:linear-gradient(90deg,var(--or),#ffc27d);transition:width 1.6s ease}
+.jauge .row{display:flex;justify-content:space-between;margin-top:10px;font-size:14px;color:var(--mut)}
+.jauge .row b{color:#fff;font-size:18px;font-family:"Roboto Slab"}
+/* form */
+.inscr .grid2{grid-template-columns:.85fr 1.15fr}
+form{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+label{font-size:13px;color:var(--mut);display:flex;flex-direction:column;gap:7px}
+input,select{font:inherit;color:#fff;background:rgba(10,12,30,.6);border:1px solid var(--line);border-radius:12px;padding:13px 14px;outline:none;transition:.2s}
+input:focus,select:focus{border-color:var(--or);box-shadow:0 0 0 3px rgba(232,137,43,.2)}
+select option{color:#000}
+.full{grid-column:1/-1}
+.profils{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.profils input{position:absolute;opacity:0}
+.profils span{display:block;text-align:center;border:1px solid var(--line);border-radius:12px;padding:12px 6px;color:#dfe3f7;cursor:pointer;transition:.2s;font-size:14px}
+.profils input:checked+span{border-color:var(--or);background:rgba(232,137,43,.14);color:#fff}
+.profils label{position:relative}
+.note{font-size:12px;color:var(--mut)}
+.ok{display:none;text-align:center}
+.ok.show{display:block;animation:pop .5s ease}
+@keyframes pop{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+.ticket{margin:24px auto 0;max-width:420px;background:#fff;color:var(--nuit);border-radius:22px;padding:26px;position:relative}
+.ticket:before,.ticket:after{content:"";position:absolute;top:58%;width:28px;height:28px;border-radius:50%;background:var(--nuit2)}
+.ticket:before{left:-14px}.ticket:after{right:-14px}
+.ticket h3{font-size:22px}
+.ticket .code{font-family:"Roboto Slab";letter-spacing:.08em;font-weight:700;color:var(--or);margin-top:6px}
+#qr{display:flex;justify-content:center;margin:18px 0 6px;padding-top:18px;border-top:2px dashed #d7dbea}
+.demo{margin-top:18px;display:inline-block;font-size:13px;background:rgba(232,137,43,.14);border:1px solid rgba(232,137,43,.5);color:#ffd2a3;padding:8px 14px;border-radius:999px}
+.list{list-style:none;margin-top:24px;display:grid;gap:14px}
+.list li{display:flex;gap:12px;color:#dfe3f7}
+.list li:before{content:"";flex:0 0 10px;height:10px;margin-top:8px;border-radius:50%;background:var(--or)}
+footer{background:#0e1126;border-top:1px solid var(--line);padding:46px 0}
+footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.org{display:flex;align-items:center;gap:16px}
+.org img{height:58px;width:auto}
+.org p{font-size:14px;color:var(--mut)}.org b{color:#fff;display:block;font-size:16px}
+footer small{color:var(--mut);font-size:12px}
+@media(max-width:900px){
+ nav ul{display:none}
+ .hero{padding:70px 0 60px}
+ .hero .wrap,.grid2,.inscr .grid2{grid-template-columns:1fr}
+ .phone{display:none}
+ .timeline{grid-template-columns:1fr;gap:22px}
+ .timeline:before{top:0;bottom:0;left:27px;right:auto;width:2px;height:auto}
+ .step{display:flex;align-items:center;gap:18px;text-align:left}
+ .dot{margin:0;flex:0 0 56px}
+ .cd div{min-width:0;flex:1}.cd{width:100%}.cd span{font-size:30px}
+ section{padding:70px 0}
+}
+@media(max-width:560px){form{grid-template-columns:1fr}.profils{grid-template-columns:1fr 1fr}.card{padding:24px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+ <div class="brand">NOVA <span>X</span></div>
+ <ul><li><a href="#programme">Programme</a></li><li><a href="#lieu">Lieu</a></li><li><a href="#inscription">Inscription</a></li></ul>
+ <a class="btn" href="#inscription">Je m'inscris</a>
+</div></nav>
+
+<header class="hero">
+ <div class="glow"></div>
+ <div class="wrap">
+  <div>
+   <span class="tag">NOVA Électronique présente</span>
+   <h1>NOVA <em>X</em><small>Soirée de lancement</small></h1>
+   <div class="meta">
+    <div><b>Date</b>Jeudi 11 février 2027</div>
+    <div><b>Heure</b>19 h</div>
+    <div><b>Lieu</b>Sofitel Abidjan Hôtel Ivoire</div>
+   </div>
+   <div class="cta"><a class="btn" href="#inscription">Réserver ma place</a><a class="btn ghost" href="#programme">Voir le programme</a></div>
+  </div>
+  <div class="phone"><i></i></div>
+ </div>
+</header>
+
+<div class="count"><div class="wrap">
+ <p>Révélation dans</p>
+ <div class="cd" id="cd">
+  <div><span id="d">--</span><small>Jours</small></div>
+  <div><span id="h">--</span><small>Heures</small></div>
+  <div><span id="m">--</span><small>Minutes</small></div>
+  <div><span id="s">--</span><small>Secondes</small></div>
+ </div>
+</div></div>
+
+<section id="programme"><div class="wrap">
+ <div class="kicker">Programme</div>
+ <h2>Une soirée, cinq temps forts</h2>
+ <p class="lead">300 invités, distributeurs, presse, influenceurs et partenaires, pour découvrir en avant-première le nouveau smartphone NOVA X.</p>
+ <div class="timeline">
+  <div class="step"><div class="dot"><svg viewBox="0 0 24 24"><path d="M8 3h8l-1 7a3 3 0 0 1-6 0zM12 13v7M8 21h8"/></svg></div><div><h3>19 h</h3><p>Accueil et cocktail</p></div></div>
+  <div class="step"><div class="dot"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div><div><h3>20 h</h3><p>Révélation du produit</p></div></div>
+  <div class="step"><div class="dot"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div><div><h3>20 h 30</h3><p>Démonstrations</p></div></div>
+  <div class="step"><div class="dot"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg></div><div><h3>21 h 30</h3><p>Dîner et DJ</p></div></div>
+  <div class="step"><div class="dot"><svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></div><div><h3>23 h</h3><p>Fin de soirée</p></div></div>
+ </div>
+</div></section>
+
+<section id="lieu" class="lieu"><div class="wrap grid2">
+ <div class="card">
+  <div class="kicker">Lieu</div>
+  <h2>Sofitel Abidjan Hôtel Ivoire</h2>
+  <p class="addr"><strong>Boulevard Hassan II</strong>Cocody, Abidjan, Côte d'Ivoire</p>
+  <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Sofitel+Abidjan+Hotel+Ivoire">Itinéraire</a>
+  <div class="jauge">
+   <div class="row"><span>Places réservées</span><span><b id="jn">213</b> / 300</span></div>
+   <div class="bar"><div class="fill" id="jf"></div></div>
+   <div class="row"><span>Exemple de jauge</span><span>87 places restantes</span></div>
+  </div>
+ </div>
+ <div class="map"><div class="pin"></div><b>Cocody · Abidjan</b></div>
+</div></section>
+
+<section id="inscription" class="inscr"><div class="wrap grid2">
+ <div>
+  <div class="kicker">Inscription</div>
+  <h2>Réservez votre place</h2>
+  <p class="lead">Soirée sur invitation. Votre QR code d'entrée s'affiche dès la validation : présentez-le à l'accueil le soir du 11 février.</p>
+  <ul class="list"><li>Accès réservé aux invités inscrits</li><li>Un QR code personnel par invité</li><li>Tenue de soirée recommandée</li></ul>
+ </div>
+ <div class="card">
+  <form id="f" novalidate>
+   <label>Nom et prénom<input name="nom" id="nom" required placeholder="Ex. Aya Koné"></label>
+   <label>Entreprise<input name="ent" required placeholder="Votre entreprise"></label>
+   <label>Fonction<input name="fon" required placeholder="Votre fonction"></label>
+   <label>Téléphone<input name="tel" type="tel" required placeholder="+225 07 00 00 00 00"></label>
+   <label class="full">E-mail<input name="mail" type="email" required placeholder="vous@entreprise.ci"></label>
+   <div class="full"><label style="margin-bottom:8px">Profil</label>
+    <div class="profils">
+     <label><input type="radio" name="pro" value="Distributeur" checked><span>Distributeur</span></label>
+     <label><input type="radio" name="pro" value="Presse"><span>Presse</span></label>
+     <label><input type="radio" name="pro" value="Influenceur"><span>Influenceur</span></label>
+     <label><input type="radio" name="pro" value="Partenaire"><span>Partenaire</span></label>
+    </div></div>
+   <div class="full" style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+    <button class="btn" type="submit">Valider mon inscription</button>
+    <span class="note" id="err"></span>
+   </div>
+  </form>
+  <div class="ok" id="ok">
+   <div class="kicker">Inscription confirmée</div>
+   <h2 id="okt" style="font-size:30px">Merci !</h2>
+   <div class="ticket">
+    <h3>NOVA X · Soirée de lancement</h3>
+    <p style="font-size:14px;color:#545b85">Jeudi 11 février 2027, 19 h · Sofitel Abidjan Hôtel Ivoire</p>
+    <div id="qr"></div>
+    <div class="code" id="code"></div>
+    <p style="font-size:12px;color:#545b85" id="pr"></p>
+   </div>
+   <span class="demo">Démonstration : aucune donnée n'est enregistrée</span>
+  </div>
+ </div>
+</div></section>
+
+<footer><div class="wrap">
+ <div class="org"><img src="logo.png" alt="SN Silverplate Services"><p>Organisation<b>SN Silverplate Services</b></p></div>
+ <small>Organisation : SN Silverplate Services · Abidjan</small>
+</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function(){
+ var t=Date.UTC(2027,1,11,19,0,0);
+ function p(n){return String(n).padStart(2,'0')}
+ function tick(){var r=Math.max(0,t-Date.now());
+  document.getElementById('d').textContent=Math.floor(r/864e5);
+  document.getElementById('h').textContent=p(Math.floor(r/36e5)%24);
+  document.getElementById('m').textContent=p(Math.floor(r/6e4)%60);
+  document.getElementById('s').textContent=p(Math.floor(r/1e3)%60);}
+ tick();setInterval(tick,1000);
+ setTimeout(function(){document.getElementById('jf').style.width=(213/300*100)+'%'},300);
+ var f=document.getElementById('f');
+ f.addEventListener('submit',function(e){e.preventDefault();
+  var bad=[].slice.call(f.querySelectorAll('input[required]')).filter(function(i){return !i.value.trim()||!i.checkValidity()});
+  f.querySelectorAll('input').forEach(function(i){i.style.borderColor=''});
+  if(bad.length){bad.forEach(function(i){i.style.borderColor='#ff7a6b'});document.getElementById('err').textContent='Merci de compléter les champs en rouge.';return;}
+  var nom=f.nom.value.trim();
+  var ini=nom.normalize('NFD').replace(/[\u0300-\u036f]/g,'').split(/\s+/).map(function(w){return w.charAt(0).toUpperCase()}).join('').replace(/[^A-Z]/g,'').slice(0,3)||'X';
+  var code='NOVAX-2027-'+ini+'-'+Math.floor(100000+Math.random()*900000);
+  document.getElementById('okt').textContent='Merci '+nom.split(/\s+/)[0]+' !';
+  document.getElementById('code').textContent=code;
+  document.getElementById('pr').textContent='Profil : '+f.pro.value+' · '+f.ent.value.trim();
+  var q=document.getElementById('qr');q.innerHTML='';
+  if(window.QRCode){new QRCode(q,{text:code,width:180,height:180,colorDark:'#262C51',colorLight:'#ffffff',correctLevel:QRCode.CorrectLevel.M});}
+  else{q.textContent='QR code indisponible hors connexion';}
+  f.style.display='none';var ok=document.getElementById('ok');ok.classList.add('show');ok.scrollIntoView({behavior:'smooth',block:'center'});
+ });
+})();
+</script>
+</body>
+</html>
